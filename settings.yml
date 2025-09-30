@@ -1,2 +1,39 @@
-example_setting:
-  default: true
+apple:
+  type: bool
+  default: false
+  description: "Deprecate Apple"
+
+discord:
+  type: bool
+  default: false
+  description: "Deprecate Discord"
+
+facebook:
+  type: bool
+  default: false
+  description: "Deprecate Facebook"
+
+github:
+  type: bool
+  default: false
+  description: "Deprecate GitHub"
+
+google:
+  type: bool
+  default: false
+  description: "Deprecate Google"
+
+linkedin:
+  type: bool
+  default: false
+  description: "Deprecate LinkedIn"
+
+twitter:
+  type: bool
+  default: false
+  description: "Deprecate Twitter/X"
+
+deprecation_date:
+  type: string
+  default: ""
+  description: "Deprecation date (YYYY-MM-DD)"

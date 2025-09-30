@@ -1,5 +1,6 @@
 en:
   theme_metadata:
     description: Social logins deprecation notices
-    settings:
-      example_setting: A description of a setting.
+  social_logins_deprecation:
+    notice: "⚠️ You are using one of the following deprecated social logins: <strong>%{providers}</strong>. Please, sign in using a <a href=https://id.discourse.com>Discourse ID</a> account."
+    notice_with_date: "⚠️ You are using one of the following deprecated social logins: <strong>%{providers}</strong>. They will be removed on <strong>%{date}</strong>. Please, sign in using a <a href=https://id.discourse.com>Discourse ID</a> account."
