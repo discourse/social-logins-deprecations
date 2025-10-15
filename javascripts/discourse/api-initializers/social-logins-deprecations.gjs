@@ -54,7 +54,10 @@ export default apiInitializer(async (api) => {
   }
 
   const siteSettings = api.container.lookup("service:site-settings");
-  if (siteSettings.enforce_second_factor_on_external_auth && currentUser.second_factor_enabled) {
+  if (
+    siteSettings.enforce_second_factor_on_external_auth &&
+    currentUser.second_factor_enabled
+  ) {
     return;
   }
 
